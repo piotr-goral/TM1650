@@ -1,4 +1,4 @@
-# TM1650
+# TM1650 & FD650
 
 ### 7 segment display driver for JY-MCU module based on TM1650 chip
 
@@ -6,6 +6,8 @@
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/TM1650.svg?)](https://www.ardu-badge.com/TM1650)
 
+
+Dodane pliki obsługi wyświetlacza ze sterownikiem FD650S.
 
 
 ###### Changelog:
