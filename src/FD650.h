@@ -1,4 +1,4 @@
-/** ============================================
+/** =========================================================================================
  * 7 segment display driver for module based on FD650 chip
  * Copyright (c) 2015 Anatoli Arkhipenko
  * 
@@ -10,7 +10,16 @@
  *		- 
  *	Pozostałe elementy pozostały w oryginalnej formie. 
  *	Elementy zmienione dotyczyły niedopasowania programu do płytki na której wykonano testy.
- * ===============================================*/
+ *
+ *	Płytka wykorzystana do testów to panel przedni tunera DVB-T 'ARIVA T65' firmy FERGUSON.
+ *	Wykorzystany jest tam układ FD650S oraz wyświetlacz LIM-3043G-7.
+ *	Kropki dziesiętne wyświetlacza są nie podłączone, za to w ich miejsce jest włączony
+ *	dwukropek pomiędzy drugą i trzecią cyfrą oraz diody LED za wyświetlaczem 
+ *	(czerwona i zielona).
+ *	
+ *	Testy wykonano na płytce Arduino Nano z uC ATMega168.
+ *	Podłączenie lini komunikacyjnych do pinów 18 (A4 - SDA) i 19 (A5 - SCL).
+ * ========================================================================================*/
 
 #include <Arduino.h>
 #include <Wire.h>
