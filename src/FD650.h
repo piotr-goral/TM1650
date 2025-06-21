@@ -3,19 +3,13 @@
  * Copyright (c) 2015 Anatoli Arkhipenko
  * 
  * 
- * Changelog:
- *	v1.0.0:
- *		2015-02-24 - Initial release 
- *
- *	v1.0.1:  
- *		2015-04-27 - Added support of program memery (PROGMEM) to store the ASCII to Segment Code table
- *
- *	v1.0.2:
- *		2015-08-08 - Added check if panel is connected during init. All calls will be disabled is panel was not connected during init.
- *
- *  v1.1.0:
- *      2015-12-20 - code clean up. Moved to a single header file. Added Gradual brightness method
- *
+ * Przykład wykonany na podstawie oryginalnego projektu w/w autora.
+ *	Zmiany:
+ *		- Zmieniona została tablica danych kształtów wyświetlanych znaków. 
+ *		- Zmieniona została kolejność rozmieszczenia znaków na wyświetlaczu.  
+ *		- 
+ *	Pozostałe elementy pozostały w oryginalnej formie. 
+ *	Elementy zmienione dotyczyły niedopasowania programu do płytki na której wykonano testy.
  * ===============================================*/
 
 #include <Arduino.h>
